@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.cibertec.aplication.model.TblProducto;
 
-
 @Repository
 public interface IProductoRepository extends JpaRepository<TblProducto, Integer> {
 
